@@ -7,20 +7,15 @@ header .navigation {
 }
 
 .navbar a {
-    color: white;
+    font-weight: bold;
 }
 
 .story {
     margin: 100px;
-    ;
 }
 
 .featured-services {
     background-color: rgba(196, 196, 196, 0.27);
-}
-
-.featured-services container {
-    margin-top: 3cm;
 }
 
 footer #first {
