@@ -1,7 +1,105 @@
-footer #first {
+.navbar a {
+    font-weight: bold;
+}
+
+#view-more {
+    padding: 39px;
+}
+
+#first {
     background-color: #E5E4E2;
+    padding: 50px;
+}
+
+#first ul {
+    position: relative;
+    right: 42px;
 }
 
 footer li {
     list-style-type: none;
+}
+
+#second {
+    padding: 50px;
+    background: rgba(196, 196, 196, 0.27);
+}
+
+#second .row>div:last-child {
+    margin-top: 23px;
+}
+
+.icons {
+    position: relative;
+    left: 40px;
+}
+
+.contact {
+    position: relative;
+    right: 60px;
+}
+
+.fab {
+    margin: 25px;
+}
+
+@media screen and (max-width: 508px) and (min-width: 400px) {
+    header {
+        height: 9cm;
+    }
+    .navbar img {
+        margin: 0 auto;
+        margin-top: -155px;
+        margin-right: 34px;
+    }
+    .navbar ul {
+        position: relative;
+        display: block;
+        top: 80px;
+        right: 135px;
+    }
+    .navbar a {
+        margin: 10px;
+    }
+    .contact {
+        position: relative;
+        right: 0;
+    }
+    .body-header {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 509px) {
+    .contact {
+        position: relative;
+        right: 0;
+    }
+    #first .col-md-3 {
+        margin-top: 20px;
+    }
+    .navbar ul {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 768px) {
+    .icons {
+        position: relative;
+        left: 20px;
+    }
+    .fab {
+        margin: 30px;
+    }
+    #first .row>div:nth-child(2),
+    #first .row>div:nth-child(3) {
+        position: relative;
+        right: 45px;
+    }
+    .contact {
+        position: relative;
+        margin-right: -1px;
+        padding-left: 6px;
+        right: 80px !important;
+    }
 }
