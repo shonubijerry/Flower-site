@@ -19,28 +19,44 @@
     <!-- <link rel="stylesheet" href="css/mdb.min.css"> -->
     <!-- Your custom styles (optional) -->
     <link rel="stylesheet" href="./css/social.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <div class="container">
-            <nav class="navbar">
-                <img src="img/N&D NEW LOGO 1.png" alt="logo" class="img-fluid">
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active text-dark" href="#">SERVICES</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark text" href="#">PROJECTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">OUR STORY</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">OUR TEAM</a>
-                    </li>
-                </ul>
-            </nav>
+             <nav class="navbar">
+                    <a href="homepage.html"><img src="img/N&D NEW LOGO 1.png" alt="logo" class="img-fluid"></a>
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <div class="toggle">
+                                <a data-toggle="collapse" data-target="#social-links">
+                                       SERVICES
+                                      </a>
+                                <div class="collapse" id="social-links">
+                                    <a href="decor.html">DECOR</a><br>
+                                    <a href="management.html">MANAGEMENT</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="toggle">
+                                <a data-toggle="collapse" data-target="#project-links">
+                                        PROJECTS
+                                       </a>
+                                <div class="collapse" id="project-links">
+                                    <a href="social-events.html">SOCIAL EVENTS</a><br>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="our-story.html">OUR STORY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="our-team.html">OUR TEAM</a>
+                        </li>
+                    </ul>
+                </nav>
         </div>
     </header>
     <section>
@@ -173,7 +189,7 @@
 
     <!-- SCRIPTS -->
     <!-- JQuery -->
-    <script type="text/javascript" src="./js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="./js/jquery.min.js"></script>
     <!-- Bootstrap tooltips -->
     <script type="text/javascript" src="./js/popper.min.js"></script>
     <!-- Bootstrap core JavaScript -->
