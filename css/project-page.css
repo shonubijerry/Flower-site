@@ -1,167 +1,135 @@
- .low {
-     display: inline-flex;
- }
- 
- .light {
-     margin-top: -10px;
- }
- 
- .duo {
-     margin-left: -25px;
- }
- 
- .aside {
-     margin-top: -10px;
- }
- 
- .navbar a {
-     font-weight: bold;
- }
- 
- section div:nth-child(2) {
-     padding: 10px;
- }
- 
- section .text-center {
-     padding: 45px;
- }
- 
- #first {
-     background-color: #E5E4E2;
-     padding: 50px;
- }
- 
- #first ul {
-     position: relative;
-     right: 42px;
- }
- 
- footer li {
-     list-style-type: none;
- }
- 
- footer a {
-     color: black;
- }
- 
- footer a:hover {
-     text-decoration: none;
-     color: black;
- }
- 
- #second {
-     padding: 50px;
-     background: rgba(196, 196, 196, 0.27);
- }
- 
- #second .row>div:last-child {
-     margin-top: 23px;
- }
- 
- .icons {
-     position: relative;
-     left: 40px;
- }
- 
- .contact {
-     position: relative;
-     right: 60px;
- }
- 
- .fab {
-     margin: 25px;
- }
- 
- @media screen and (max-width: 450px) and (min-width: 420px) {
-     header {
-         height: 10cm;
-     }
-     .navigation {
-         height: 9cm;
-     }
-     .navbar>a>img {
-         margin: 0 auto;
-         margin-top: -155px;
-         margin-left: 118px;
-     }
-     .navbar ul {
-         position: relative;
-         display: block;
-         top: 80px;
-         right: 110px;
-     }
-     .navbar li a {
-         margin: 10px;
-     }
-     .contact {
-         position: relative;
-         right: 0;
-     }
-     .body-header {
-         text-align: center;
-     }
- }
- 
- @media screen and (max-width: 508px) and (min-width: 451px) {
-     header {
-         height: 10cm;
-     }
-     .navigation {
-         height: 9cm;
-     }
-     .navbar img {
-         margin: 0 auto;
-         margin-top: -155px;
-         margin-left: 152px;
-     }
-     .navbar ul {
-         position: relative;
-         display: block;
-         top: 80px;
-         right: 135px;
-     }
-     .navbar li a {
-         margin: 10px;
-     }
-     .contact {
-         position: relative;
-         right: 0;
-     }
-     .body-header {
-         text-align: center;
-     }
- }
- 
- @media screen and (max-width: 767px) and (min-width: 509px) {
-     .contact {
-         position: relative;
-         right: 0;
-     }
-     #first .col-md-3 {
-         margin-top: 20px;
-     }
-     .navbar ul {
-         margin-top: 20px;
-     }
- }
- 
- @media screen and (max-width: 1120px) and (min-width: 768px) {
-     .icons {
-         position: relative;
-         left: 20px;
-     }
-     .fab {
-         margin: 30px;
-     }
-     #first .row>div:nth-child(2),
-     #first .row>div:nth-child(3) {
-         position: relative;
-         right: 45px;
-     }
-     .contact {
-         position: relative;
-         margin-right: -1px;
-         padding-left: 6px;
-         right: 80px !important;
-     }
- }
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.low {
+    display: inline-flex;
+}
+
+.light {
+    margin-top: -10px;
+}
+
+.duo {
+    margin-left: -25px;
+}
+
+.aside {
+    margin-top: -10px;
+}
+
+.navbar a {
+    font-weight: bold;
+}
+
+.toggle {
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.collapse a {
+    color: black;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.toggle a:hover {
+    text-decoration: none;
+}
+
+section div:nth-child(2) {
+    padding: 10px;
+}
+
+section .text-center {
+    padding: 45px;
+}
+
+#first {
+    background-color: #E5E4E2;
+    padding: 50px;
+}
+
+#first ul {
+    position: relative;
+    right: 42px;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer a {
+    color: black;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+#second {
+    padding: 50px;
+    background: rgba(196, 196, 196, 0.27);
+}
+
+#second .row>div:last-child {
+    margin-top: 23px;
+}
+
+.icons {
+    position: relative;
+    left: 40px;
+}
+
+.contact {
+    position: relative;
+    right: 60px;
+}
+
+.fab {
+    margin: 25px;
+}
+
+@media screen and (max-width: 508px) and (min-width: 0px) {
+    .navbar ul {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 509px) {
+    .contact {
+        position: relative;
+        right: 0;
+    }
+    #first .col-md-3 {
+        margin-top: 20px;
+    }
+    .navbar ul {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 768px) {
+    .icons {
+        position: relative;
+        left: 20px;
+    }
+    .fab {
+        margin: 30px;
+    }
+    #first .row>div:nth-child(2),
+    #first .row>div:nth-child(3) {
+        position: relative;
+        right: 45px;
+    }
+    .contact {
+        position: relative;
+        margin-right: -1px;
+        padding-left: 6px;
+        right: 80px !important;
+    }
+}

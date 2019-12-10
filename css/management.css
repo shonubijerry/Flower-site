@@ -1,5 +1,27 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .navbar a {
     font-weight: bold;
+}
+
+.toggle {
+    margin-top: 8px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.collapse a {
+    color: black;
+}
+
+.toggle:hover {
+    cursor: pointer;
+}
+
+.toggle a:hover {
+    text-decoration: none;
 }
 
 section div:nth-child(2) {
@@ -53,67 +75,9 @@ footer a:hover {
     margin: 25px;
 }
 
-@media screen and (max-width: 450px) and (min-width: 420px) {
-    header {
-        height: 10cm;
-    }
-    .navigation {
-        height: 9cm;
-    }
-    .navbar>a>img {
-        margin: 0 auto;
-        margin-top: -155px;
-        margin-left: 118px;
-    }
+@media screen and (max-width: 508px) and (min-width: 0px) {
     .navbar ul {
-        position: relative;
-        display: block;
-        top: 80px;
-        right: 110px;
-    }
-    .navbar li a {
-        margin: 10px;
-    }
-    .contact {
-        position: relative;
-        right: 0;
-    }
-    .body-header {
-        text-align: center;
-        margin-left: 45px;
-        margin-right: 60px;
-    }
-}
-
-@media screen and (max-width: 508px) and (min-width: 451px) {
-    header {
-        height: 10cm;
-    }
-    .navigation {
-        height: 9cm;
-    }
-    .navbar img {
-        margin: 0 auto;
-        margin-top: -155px;
-        margin-left: 152px;
-    }
-    .navbar ul {
-        position: relative;
-        display: block;
-        top: 80px;
-        right: 135px;
-    }
-    .navbar li a {
-        margin: 10px;
-    }
-    .contact {
-        position: relative;
-        right: 0;
-    }
-    .body-header {
-        text-align: center;
-        margin-left: 45px;
-        margin-right: 60px;
+        margin-top: 20px;
     }
 }
 
